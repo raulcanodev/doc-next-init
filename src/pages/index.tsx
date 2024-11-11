@@ -7,22 +7,33 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+export function HomepageHeader() {
+  const { siteConfig } = useDocusaurusContext();
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+    <header className={styles.heroBanner}>
+      <div className={styles.heroContent}>
+        <div>
+          <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
+        </div>
+        <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+        <div className={`${styles.heroButtons}`}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/intro"
+          >
+            Get Started 🚀
+          </Link>
+          <Link
+            className="button button--primary button--lg"
+            to="https://github.com/yourusername/yourrepository"
+          >
+            View on GitHub
           </Link>
         </div>
+      </div>
+      <div className={styles.heroImage}>
+        <img src="/img/hero-illustration.svg" alt="Hero Illustration" />
       </div>
     </header>
   );
