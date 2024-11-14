@@ -2,46 +2,60 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Hey there! 👋
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Free Next Init boilerplate** documentation! 🚀
 
-## Getting Started
+This boilerplate is a starting point for your Next.js project, with a lot of features and configurations already set up for you. It's a great way to start a new project without having to worry about setting up all the configurations from scratch.
 
-Get started by **creating a new site**.
+This project is **open-source** and available on [GitHub](https://github.com/raulcanodev/next-init). Feel free to contribute, report issues, or suggest new features.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Let's get started! 🎉
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Tech Stack 🛠️
 
-## Generate a new site
+This boilerplate is built with the following technologies:
 
-Generate a new Docusaurus site using the **classic template**.
+### Core
+- **[Next.js](https://nextjs.org/)** - React framework for building server-rendered applications.
+- **[TypeScript](https://www.typescriptlang.org/)** - Typed superset of JavaScript that compiles to plain JavaScript.
+- **[React](https://reactjs.org/)** - JavaScript library for building user interfaces.
+- **[Turborepo](https://turborepo.com/)** - Monorepo tool that optimizes the workflow for multi-package repositories.
 
-The classic template will automatically be added to your project after you run the command:
+### Frontend
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for quickly building custom designs.
+- **[Shadcn UI](https://ui.shadcn.com/)** - Set of accessible and reusable components for React.
+- **[Prettier](https://prettier.io/)** - Code formatter.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Backend
+- **[MongoDB](https://www.mongodb.com/)** - NoSQL database.
+- **[NextAuth](https://next-auth.js.org/)** - An authentication library for Next.js.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Integrations
+- **[Resend](https://resend.io/)** - Tansactional email service (I love it!).
+- **[React Email](https://react.email/)** - Build email templates with React.
+- **[Lemon Squeezy](https://lemonsqueezy.io/)** - Payment processing for developers.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
 
-Run the development server:
+:::tip Note
 
-```bash
-cd my-website
-npm run start
-```
+Feel free to remove or replace any of these technologies according to your project needs.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+:::
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Why Next Init? 🤔
+I've been seeing many boilerplates these days, that are either too simple or too complex. This boilerplate is designed to be a middle ground, with just the right amount of features and configurations to get you started quickly.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+I decided to make it free and open-source so that anyone can use it without worrying on costs.
+
+You can either use this boilerplate as a starting point for your project or as a learning resource to see how a full-fledged Next.js project is set up.
+
+
+
+## Inspiration Credits 🙏
+
+This project was inspired but not copied from the following projects:
+- **[NextJet](https://www.nextjet.dev/)** - My friend [Renas](https://x.com/renas_dev) 🫶
+- **[ShipFast](https://shipfa.st/)** - Indie hacker & content creator [Marc Lou](https://x.com/marc_louvion).
